@@ -1,4 +1,245 @@
-.about {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1fr));
+@media screen and (max-width: 480em) {
+  .about {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #e9f8ff;
+  }
+  .aboutUs-img {
+    background: url(../img/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+  }
+  .about-desc {
+    padding: 20px;
+  }
+  .about-desc h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #61d0ff;
+    text-align: center;
+  }
+  .about-desc p {
+    padding: 10px;
+    line-height: 2.5em;
+    text-align: left;
+  }
+  .about-image {
+    position: relative;
+    padding: 20px;
+  }
+  .about-image img {
+    width: 100%;
+  }
+  .about-image .half-circle {
+    width: 200px;
+    position: absolute;
+    bottom: 2%;
+    right: -5%;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .abtpage-title {
+    font-family: Mulish;
+    padding: 20px;
+    color: #8fe6f1;
+    font-size: 22px;
+  }
+  .abt-page,
+  .about-text,
+  .aboutpage-middle {
+    padding-block-end: 0px;
+    padding-inline: 20px;
+  }
+
+  .about-text,
+  .aboutpage-middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutpage-middle {
+    background: #e9f8ff;
+  }
+  .abt-page h4,
+  p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutpage-middle p {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+/* 
+  .abtpage-title p{
+padding: 20px 0;
+} */
+
+.about-text p {
+  line-height: 2em;
+}
+
+.abt-page h4,
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.abt-page h4 {
+  padding-block: 10px;
+  color: #8fe6f1;
+  font-size: 22px;
+  font-weight: 700;
+}
+/* large */
+
+@media screen and (min-width: 40em) {
+  .aboutUs-img {
+    background: url(../img/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+  .about {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 10px;
+    margin-block-end: 50px;
+  }
+  .about-desc h1,
+  p {
+    text-align: left;
+  }
+  .about-image .student {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 90%;
+  }
+
+  .about-desc h1 {
+    padding-top: 20px;
+    margin-block-start: 40px;
+    padding-inline: 20px;
+    font-size: 38px;
+  }
+
+  .abtpage-title {
+    font-family: Mulish;
+    padding: 20px;
+    color: #8fe6f1;
+    font-size: 28px;
+  }
+  .about-desc {
+    padding-inline-start: 80px;
+    padding-inline-end: 20px;
+    width: 50%;
+  }
+  .about-image {
+    padding-block-start: 80px;
+    width: 40%;
+  }
+  .about-image .half-circle {
+    width: 310px;
+  }
+  .about-desc p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 271%;
+    color: rgba(0, 0, 0, 0.69);
+    /* font-size: 20px;
+    padding: 20px;
+
+    line-height: 2.8em; */
+  }
+
+  .abt-page h4,
+  p {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-text,
+  .aboutpage-middle {
+    display: flex;
+  }
+  .aboutpage-middle {
+    background: #e9f8ff;
+  }
+  .aboutpage-middle {
+    padding-block: 60px;
+    padding-inline-start: 20px;
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+  }
+  .aboutpage-middle p {
+    /* padding-inline: 160px; */
+    font-size: 22px;
+    line-height: 2.2em;
+    width: 45%;
+  }
+  .aboutpage-middle {
+    align-items: center;
+    width: 100%;
+  }
+  .aboutpage-middle img {
+    width: 520px;
+    margin-inline-start: 60px;
+  }
+
+  .about-text {
+    padding-block-start: 50px;
+  }
+  .about-text h1 {
+    font-family: Mulish;
+    font-size: 28px;
+    padding-block-end: 10px;
+  }
+  .about-text p {
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 2em;
+    padding-inline: 40px;
+    padding-block-end: 21px;
+  }
+  .abt-page h4 {
+    font-size: 28px;
+  }
+  .abt-page p {
+    font-size: 18px;
+    padding-inline: 40px;
+    line-height: 1.5em;
+  }
+}
+
+.about-btn,
+button {
+  /* background: rgb(97, 208, 255);
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150.5%;
+    outline: none;
+    border: none;
+    border-radius: 4px; */
+  margin-block-start: 10px;
+  margin-inline-start: 15px;
+  background: #61d0ff;
+  color: white;
+  font-size: 18px;
+  border: 1px solid #61d0ff;
+  padding: 10px;
+  border-radius: 4px;
 }

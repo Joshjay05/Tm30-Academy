@@ -1,0 +1,181 @@
+.mycards {
+  background-color: black;
+  width: 32%;
+  color: white;
+  padding: 2rem 1.9rem;
+  border-radius: 0.8rem;
+height: 100%;
+}
+
+.price-desc {
+  text-align: center;
+}
+.price-desc h4 {
+  color: #61d0ff;
+  font-size: 28px;
+}
+.price-desc p {
+  text-align: center;
+}
+
+.mycards h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #61d0ff;
+}
+.mycards h4 {
+  font-size: 2.3rem;
+  padding: 1rem 0;
+}
+.mycards p {
+  font-size: 0.75rem;
+  box-sizing: border-box;
+  height: 8rem;
+  /* background-color: red; */
+  padding: 0.5rem 0;
+}
+.lineimgae img {
+  width: 100%;
+}
+.lineimgae {
+  width: 80%;
+}
+.row {
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.rowall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.price-btn img {
+  background-color: #61d0ff;
+}
+.price-btn {
+  margin: 1.6rem 0;
+  background-color: #61d0ff;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  padding: 0.8rem 0;
+  border-radius: 0.5rem;
+  align-items: center;
+  width: 65%;
+}
+
+@media screen and (max-width: 1115px) {
+  .row {
+    width: 95%;
+  }
+  .mycards h1 {
+    font-size: 1.47rem;
+    height: 5rem;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .row {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mycards {
+    width: 45%;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  .rowall {
+    text-align: center;
+  }
+  .row {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mycards {
+    width: 70%;
+    margin-top: 1.3rem;
+  }
+  .mycards p {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rowall {
+    text-align: center;
+  }
+  .row {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mycards {
+    width: 70%;
+    margin-top: 1.3rem;
+  }
+  .mycards h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .rowall {
+    text-align: center;
+  }
+  .row {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mycards {
+    width: 90%;
+    margin-top: 1.3rem;
+  }
+  .mycards h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .rowall {
+    text-align: center;
+  }
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mycards {
+    width: 100%;
+    margin-top: 1.3rem;
+    padding: 1rem;
+  }
+  .mycards h1 {
+    font-size: 1rem;
+    height: fit-content;
+  }
+  .mycards h4 {
+    font-size: 1.7rem;
+  }
+  .price-btn {
+    width: 90%;
+  }
+}

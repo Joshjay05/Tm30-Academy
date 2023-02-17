@@ -1,0 +1,111 @@
+@media screen and (max-width: 40em) {
+  .comment {
+    width: 100%;
+  }
+  .forms {
+    margin-block: 20px;
+  }
+  li {
+    list-style: none;
+  }
+
+  .form-details input {
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+  }
+
+  .form-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-block: 10px;
+  }
+  .form-details select,
+  .comment {
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+  }
+  .comment {
+    width: 100%;
+    margin-block-end: 10px;
+  }
+  .btN {
+    background: #8fe6f1;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #8fe6f1;
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .names {
+    flex-direction: column;
+  }
+  .form-details select,
+  .comment {
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+  }
+  li {
+    font-size: 22px;
+    list-style: none;
+  }
+
+  .form-details input {
+    width: 300px;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+  }
+  .form-details {
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .selectArea {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    /* justify-content: space-between; */
+  }
+
+  input::placeholder {
+    font-size: 17px;
+    padding-inline-start: 10px;
+    color: #b6b3b3;
+  }
+
+  .btN {
+    display: flex;
+    justify-content: center;
+    background: #8fe6f1;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #8fe6f1;
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+
+  .contact-details {
+    display: flex;
+    gap: 60px;
+  }
+  .names {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .comment {
+    width: 100%;
+  }
+  select {
+    width: 300px;
+  }
+}

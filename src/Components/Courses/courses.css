@@ -1,0 +1,244 @@
+/* background: #61D0FF; */
+
+@media screen and (min-width: 40em) {
+  .course-btn {
+    margin-block: 20px;
+    border: 1px solid #61d0ff;
+    background: #61d0ff;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px rgba(14, 125, 216, 0.281);
+    width: 30%;
+  }
+  /* .course-breakdown li:hover {
+    width: 50%;
+    color: #61d0ff;
+    border: 1px solid #61d0ff;
+    background: #d8f2fd;
+  } */
+  .main-content {
+    padding-block: 30px;
+    display: flex;
+    width: 100%;
+  }
+  .course-titles {
+    color: #61d0ff;
+    margin-block: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-inline-start: 40px;
+  }
+  .section-one {
+    padding-inline-start: 100px;
+    flex: 4;
+  }
+  .section-one .course-breakdown li {
+    font-size: 20px;
+  }
+  .section-two {
+    padding-inline-end: 130px;
+    flex: 10;
+  }
+  .course-breakdown p {
+    line-height: 1.5em;
+    font-size: 18px;
+  }
+
+  .others {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+  }
+  .course-breakdown .course-price {
+    background: #d8f2fd;
+    border-radius: 4px;
+    border: 1px solid #d8f2fd;
+    margin-block-start: 10px;
+    width: 525px;
+    padding: 10px;
+    text-align: center;
+  }
+  .more {
+    color: #61d0ff;
+    font-weight: 600;
+    padding-inline-start: 40px;
+    font-size: 24px;
+    padding-block-end: 20px;
+  }
+  .courses-btn {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    background: #fefefe;
+    border-radius: 4px;
+    height: 93px;
+    color: #040404;
+    border: 4px solid #fefefe;
+    width: 455px;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    margin-block-end: 40px;
+    text-decoration: none;
+  }
+
+  .course-outline li{
+    font-size: 18px;
+    font-family: Mulish;
+  }
+}
+
+.course-header-desc {
+  width: 100%;
+}
+.course-header img {
+  height: 60vmin;
+  width: 100vw;
+  background-size: contain;
+}
+.course-breakdown li {
+  font-size: 18px;
+  font-family: Mulish;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+}
+.course-breakdown {
+  padding-block-end: 10px;
+}
+.course-price {
+  font-weight: 600;
+}
+@media screen and (max-width: 40em) {
+  .others {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+  }
+  .course-titles {
+    color: #61d0ff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-block: 20px;
+    padding-inline: 30px;
+  }
+  .main-content {
+    font-family: Mulish;
+    /* line-height: 1.5em; */
+    padding-inline: 30px;
+  }
+  .course-breakdown li:hover {
+    color: #fff;
+    /* border: 1px  #61d0ff; */
+    border-radius: 4px;
+    background: #61d0ff;
+  }
+  .course-titles {
+    color: #61d0ff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-block: 20px;
+    padding-inline: 30px;
+  }
+  .course-breakdown .course-price {
+    /* width: 50%; */
+    background: #d8f2fd;
+    border-radius: 4px;
+
+    margin-block-start: 20px;
+
+    padding: 10px;
+  }
+  .more p {
+    padding-inline-start: 20px;
+    color: #61d0ff;
+    font-weight: bold;
+  }
+
+  .courses-btn {
+    align-self: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    background: #fefefe;
+    border-radius: 4px;
+    height: 93px;
+    color: #040404;
+    border: 4px solid #fefefe;
+    width: 255px;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .course-btn {
+    margin-block: 20px;
+    border: 1px solid #61d0ff;
+    background: #61d0ff;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.return-btn {
+  align-self: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+align-items: center;
+  color: #000000;
+ 
+justify-content: center;
+  padding: 5px;
+  margin: 0 auto;
+  margin-block-start: 80px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-family: Mulish;
+
+}
+
+.course-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.others p {
+  color: #61d0ff;
+  font-weight: bold;
+}
+
+/* end of animation */
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+}
+.courses-btn:hover {
+  animation: bounce 1.5s ease-in-out;
+}
+/* end- of animation */
+
+.course-outline {
+ 
+  font-family: Mulish;
+  color: #61d0ff;
+}

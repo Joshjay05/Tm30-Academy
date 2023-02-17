@@ -1,58 +1,119 @@
-.ad {
-  padding-top: 80px;
-  padding-bottom: 30px;
+@media screen and (max-width: 40em) {
+  .ad {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .direction {
+    display: flex;
+  }
+  .address-description {
+    background-color: #61d0ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+    gap: 20px;
+
+    color: white;
+  }
+  .address-description h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .office h1 {
+    font-size: 24px;
+  }
+  .line {
+    border-top: white;
+    color: white;
+    width: 100px;
+    height: 2px;
+    border: 2px solid white;
+  }
+  .office {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+  }
+  .o-btn {
+    padding: 10px;
+    color: #fff;
+    /* border-radius: 4px; */
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 3px solid white; */
+    /* background-color: #8fe6f1; */
+
+    margin: auto;
+    text-decoration: none;
+  }
 }
 
-.address-container {
-}
+@media screen and (min-width: 40em) {
+  .address-description {
+    background-color: #61d0ff;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-evenly;
+    color: white;
+  }
+  .address-description h1 {
+    font-size: 30px;
+  }
+  .ad {
+    flex-direction: row;
+    display: flex;
+  }
 
-.address-description {
-  background-color: rgb(143, 230, 241);
+  .address-description {
+    flex: 4;
+    padding: 40px;
+  }
+  .direction {
+    /* padding-block-start: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  gap: 20px;
+  .map {
+    flex: 10;
+  }
+  .o-btn {
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    /* border: 3px solid white; */
+    /* background-color: #8fe6f1; */
 
-  color: white;
-}
-.address-description h4 {
-  font-size: 24px;
-  text-align: center;
-}
-.office h1 {
-  align-items: center;
-  font-size: 24px;
-}
-.line {
-  border-top: white;
-  color: white;
-  width: 100px;
-  height: 2px;
-  border: 2px solid white;
-}
-.office {
-  align-items: center;
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-}
-.o-btn {
-  padding: 10px;
-  color: #8fe6f1;
-  border-radius: 4px;
-  font-size: 20px;
-  font-weight: bold;
-  border: 1px solid white;
-  background-color: white;
-  width: 30%;
-  margin: auto;
-  text-decoration: none;
-}
-/* .office span {
+    margin: auto;
+    text-decoration: none;
+  }
+  .line {
+    border-top: white;
+    color: white;
+    width: 100px;
+    height: 2px;
+    border: 2px solid white;
+  }
+  .office {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .office span {
     border: 1px solid #fff;
     background: #fff;
     width: 100px;
     height: 19px;
-  } */
+  }
+}

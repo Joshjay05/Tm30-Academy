@@ -1,43 +1,90 @@
-.footer {
-  width: 100vw;
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  background: #61dafb;
-  gap: 20px;
-  align-items: center;
-  padding: 16px;
-  list-style: none;
-}
-.middle {
-  display: flex;
-  gap: 20px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-}
-/* .right {
-    padding-left: 05px;
+@media screen and (max-width: 40em) {
+  .footer {
+    width: 100vw;
+    margin-top: 50px;
     display: flex;
-   
+    flex-wrap: wrap;
+    background: #61dafb;
     gap: 20px;
-  } */
-.right a {
-  display: flex;
-  justify-content: center;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+  }
+  .middle {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+  }
 
-  gap: 10px;
-}
-.right img {
-  padding-left: 10p;
-  width: 18%;
-}
-.left li {
-  font-size: 10px;
-  color: #fff;
-  font-weight: bold;
+  .right a {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+  }
+  .right img {
+    /* padding-left: 10px; */
+    width: 58%;
+  }
+  .left li {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .right li {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .logos {
+    width: 100px;
+  }
 }
 
-.logos {
-  width: 80px;
+@media screen and (min-width: 40em) {
+  .footer {
+    margin-top: 50px;
+    display: flex;
+    background: #61dafb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    align-self: center;
+    list-style: none;
+  }
+  .middle {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+  }
+  .right a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .right li {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .logos {
+    width: 100px;
+  }
 }

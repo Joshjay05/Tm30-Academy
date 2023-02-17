@@ -1,0 +1,118 @@
+@media screen and (max-width: 40em) {
+  .registration {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 70px;
+    padding-inline: 60px;
+  }
+
+  .contact h3 {
+    font-size: 22px;
+    color: #61d0ff;
+  }
+  .contact {
+    line-height: 2em;
+    padding-block-end: 20px;
+  }
+  .divider {
+    color: #999;
+    border: 1px solid #999;
+    width: 10%;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+  }
+}
+
+.contact h3 {
+  color: #61d0ff;
+  padding-block-end: 20px;
+}
+
+.contact h5 {
+  font-size: 18px;
+}
+.contact p {
+  padding-block-end: 50px;
+  padding-inline-end: 20px;
+}
+
+.contact span {
+  color: #61d0ff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 40em) {
+  .divider {
+    color: #999;
+    border: 1px solid #999;
+    width: 10%;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+  }
+  .contact {
+    width: 40%;
+  }
+  .registration-forms {
+    width: 60%;
+  }
+
+  .registration {
+    padding-inline: 90px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 125px;
+    padding-block-start: 40px;
+    padding-block-end: 60px;
+  }
+
+  .contact ul {
+    line-height: 5rem;
+    padding-top: 35px;
+    padding-left: 150px;
+  }
+  .contact {
+    line-height: 4em;
+  }
+  .contact span {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .contact h5 {
+    font-size: 24px;
+  }
+
+  .contact h3 {
+    font-size: 30px;
+  }
+
+  .contact span P {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .contact p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-inline-end: px;
+  }
+  .contact ul h3,
+  span {
+    color: #61dafb;
+  }
+  .contact hr {
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid rgb(228, 228, 228);
+  }
+  .contact li,
+  p {
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.9rem;
+  }
+}
