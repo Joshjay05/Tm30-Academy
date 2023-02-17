@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../img/courses/background1.png);
+}
+.header-top {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 100px;
+}
+.header .btn {
+  background: #8fe6f1;
+  color: #fff;
+  text-decoration: none;
+  height: 40px;
+
+  padding: 10px;
+}
+a {
+  color: #fff;
+}
+.space {
+  color: #fff;
+  border: 1px solid;
+  width: 50%;
+  margin: auto;
+}
+
+.header h4 {
+  color: #fff;
+  padding: 10vmin 50px 10px;
+  text-align: center;
+  line-height: 2em;
+}
+.header p {
+  color: #fff;
+  padding: 10px 50px;
+  font-size: 14px;
+  line-height: 2.4em;
+  text-align: center;
+}
+.dotted {
+  position: absolute;
+ 
+  left:-5%;
+  bottom: 24%;
+}
+.circle {
+  position: absolute;
+  bottom: 25%;
+  right: 0%;
+}
+@media screen and (max-width: 500px) {
+  .header {
+    min-height: 70vh;
+    width: 100%;
+  }
+}
