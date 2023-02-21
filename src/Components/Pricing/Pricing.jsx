@@ -17,7 +17,7 @@ const Pricing = () => {
 <div className="rowall">
       <div className="row">
         <div className="mycards">
-          <h1>ZERO-COST UP-FRONT.</h1>
+          <h1>ZERO-COST <br></br>  UP-FRONT.</h1>
           <h4>#0.00</h4>
          
           <s style={{color: "black", fontSize: "1.6rem", }}>#800k</s>
