@@ -8,7 +8,9 @@ import Button from "./Button";
 
 export const Course = () => {
   const [showForm, setShowForm] = useState(false);
-
+  const ScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   const submitForm = () => {
     setShowForm(!false);
   };
@@ -26,8 +28,6 @@ export const Course = () => {
               <li>-Course Goals</li>
 
               <li>-Training Methodology</li>
-              {/* <li>-Beginner Course Content</li>
-              <li>-Advance Course Content</li> */}
             </ul>
           </article>
         </section>
@@ -39,12 +39,11 @@ export const Course = () => {
               tablets and smart watches. Mobile development seeks to optimize
               functionality and user experience on mobile devices, as there are
               important differences between mobile and desktop UX.
-              
               <span className="course-price">
                 Course Price : <strong>#800,000</strong>{" "}
               </span>
             </p>
-            
+
             <p>
               At the end of this course participants will learn the process of
               mobile app creation, from beginning to end. In this course, you
@@ -54,28 +53,17 @@ export const Course = () => {
               own app. A training certificate of accomplishment will also be
               issued.
             </p>
-            
+
             <p>
               Training is delivered by learned and seasoned trainers. The
               methods employed including Lectures, Demonstrations, Practical,
               Self Practice and workshop using real life case studies. The
               training is at least 90% practical.
             </p>
-            
+
             <p>
               <h4 className="course-outline">Course Outline</h4>
               <ul>
-                {/* <li>- Getting to know the lab environment</li>
-                <li>- Writing Our First App</li>
-                <li>
-                  - An Introduction to Swift (up to Classes and Structures)
-                </li> */}
-                {/* </ul>
-            </p>
-            <br></br>
-            <p>
-              <h4 className="course-outline">Course Outline For Advance</h4>
-              <ul> */}
                 <li>- Data Programming Language</li>
                 <li>- Variables</li>
                 <li>- Operators</li>
@@ -88,7 +76,6 @@ export const Course = () => {
                 <li>
                   - Flutter packages <br></br> e.t.c .......
                 </li>
-                {/* <li>E.T.C</li> */}
               </ul>
 
               <button className="course-btn" onClick={submitForm}>
@@ -107,11 +94,17 @@ export const Course = () => {
           <p>Check Out More Courses...</p>
         </div>
         <div className="others">
-          <Link to="/course" className="courses-btn">
+          <Link
+            onClick={() => {
+              ScrollToTop();
+            }}
+            to="/course"
+            className="courses-btn"
+          >
             Mobile Development
           </Link>
           <Link to="/frontend" className="courses-btn">
-            Web Development
+            Web (Front-End) Development
           </Link>
           <Link to="/backend" className="courses-btn">
             Backend Development

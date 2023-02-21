@@ -8,6 +8,16 @@
 html {
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar-button:single-button {
+  background-color: #ece4e4;
+  display: block;
+  background-size: 10px;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:hover {
+  background-color: #d0cbcb;
+}
 
 body {
   margin: 0;

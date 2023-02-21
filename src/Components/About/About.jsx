@@ -1,6 +1,7 @@
 import React from "react";
 import aboutimage from "../img/R16.png";
 import "./about.css";
+import { Link } from "react-router-dom";
 import halfcircle from "../img/half-circle.png";
 
 const About = () => {
@@ -16,11 +17,12 @@ const About = () => {
           training for Nigerians who are passionate about building a career in
           Software Development. we make building a career in IT affordable.We
           offer results-oriented and project based IT courses for personal
-          growth and corporate taining in Nigeria.
+          growth and corporate training in Nigeria.
         </p>
-        <a href="./about-us" className="about-btn">
+
+        <Link to="/about-us" className="about-btn">
           <button>Read More</button>
-        </a>
+        </Link>
       </article>
       <article className="about-image">
         <img src={aboutimage} alt="" className="student" />

@@ -9,6 +9,10 @@ import Button from "./Button";
 export const Frontend = () => {
   const [showForm, setShowForm] = useState(false);
 
+  const ScrollToTop = () => {
+    window.scrollTo(0, 0);
+};
+
   const submitForm = () => {
     setShowForm(!false);
   };
@@ -68,24 +72,12 @@ export const Frontend = () => {
                 <li>Introduction to CSS and Javascript</li>
                 <li>Introduction to React</li>
                 <li>React Router and Single Page Applications</li>
-                {/* <li>Introducing Angular</li>
-                <li>How Angular Work>s</li */}
-                {/* </ul> */}
-                {/* <a href="./Form.js">
-                <button className="course-btn">Register Now</button>
-              </a> */}
-                {/* </p>
-
-            <br></br>
-            <p>
-              <h4 className="course-outline">Course Outline For Advance</h4>
-              <ul> */}
+            
                 <li> Single page web application development (HTML5 | CSS3)</li>
                 <li>Front-end Frameworks (React JS )</li>
                 <li>Introduction to React</li>
                 <li>React Router and Single Page Applications</li>
-                {/* <li>Introducing Angular</li>
-                <li>How Angular Works</li> */}
+             
                 <li>Back-end integration</li>
                 <li>Complete ReactJS</li>
               </ul>
@@ -108,8 +100,10 @@ export const Frontend = () => {
           <Link to="/course" className="courses-btn">
             Mobile Development
           </Link>
-          <Link to="/frontend" className="courses-btn">
-            Web Development
+          <Link  onClick={()=>{
+            ScrollToTop()
+          }}  to="/frontend" className="courses-btn">
+             Web (Front-End) Development
           </Link>
           <Link to="/backend" className="courses-btn">
             Backend Development

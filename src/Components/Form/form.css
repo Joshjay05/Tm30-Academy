@@ -42,6 +42,9 @@
 }
 
 @media screen and (min-width: 40em) {
+  option{
+    font-size:14px;
+  }
   .names {
     flex-direction: column;
   }
@@ -55,7 +58,9 @@
     font-size: 22px;
     list-style: none;
   }
-
+.form-details  .PhoneInput{
+width: 300px;
+}
   .form-details input {
     width: 300px;
     outline: none;
@@ -67,6 +72,13 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+  }
+  .form-details option{
+
+  }
+
+  select{
+    font-size: 17px;
   }
   .selectArea {
     display: flex;
@@ -82,6 +94,7 @@
   }
 
   .btN {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     background: #8fe6f1;

@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
       <div className="middle">
         {" "}
-        <li>Support</li>
+        <li> <a href="#register">Support</a></li>
         <li> Terms & Conditions</li>
       </div>
       <div className="right">

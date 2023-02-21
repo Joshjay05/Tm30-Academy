@@ -1,17 +1,13 @@
 import React from "react";
-// import group8 from "../img/courses/Group 8 (1).png";
 import "./about.css";
 import Footer from "../Footer/Footer";
 import Button from "../Courses/Button";
-// import group9 from "../img/About-tm.jpeg";
+
 export const AboutUs = () => {
   return (
     <div className="about-page">
-      <section className="aboutUs-img">
-        {/* <img src={group9} className='aboutUs-img' alt="" /> */}
-      </section>
+      <section className="aboutUs-img"></section>
       <article className="about-text">
-        {" "}
         <h1 className="abtpage-title">About us</h1>
         <p>
           TM ACADEMY is a provider of innovative, cutting-edge technological
@@ -32,21 +28,6 @@ export const AboutUs = () => {
           track as they proceed in their journey as a software developer.
         </p>
       </article>
-
-      {/* <article className="aboutpage-middle">
-        <p>
-          {" "}
-          Our Partners Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          In amet euismod eget adipiscing habitant. Tortor elit sed proin nisi.
-          Nulla lectus gravida diam non nulla velit eget iaculis fermentum.
-          Venenatis dolor, sit blandit tincidunt. Pretium egestas tempor pretium
-          aenean
-        </p>
-        <div>
-          <img src={group8} alt="" />
-        </div>
-      </article> */}
-
       <article className="abt-page">
         <h4> Our Vision </h4>
         <p>

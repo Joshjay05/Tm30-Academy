@@ -2,26 +2,26 @@ const FAQS = [
   {
     id: "1",
     title:
-      "I don't have any technical background, is it the right program for me?",
-    body: "Of course. All that we expect from you is a high sense of interest and a great deal of motivation. Once you have these two, you are good to go.",
+      "I do not have any technical background, can I join the course?",
+    body: "You do not need any technical background or previous experience to join our programs. All we require is your willingness to learn and availability for the classes. Our facilitators will be sure to guide you through.",
   },
   {
     id: "2",
 
-    title: "What course is right for me?",
-    body: "While all the courses lead to relatively great careers, you must choose a track that aligns with your strengths and goals. Each program is immersive, having a strong reason will help you see it through successfully. Please contact us for a free consultation on what course is suitable for you .",
+    title: "Do you offer any payment plan?",  //payments options
+    body: "We have 3 different payment plans available to intending students. Kindly check the Tuition and payment options available on the homepage.",
   },
   {
     id: "3",
 
-    title: "I work full time. What options do I have?",
-    body: "Our physical classes are on weekends plus all other classes are online so you won’t be missing out on any class.",
+    title: "What is the class schedule?",
+    body: "Weekday classes are held twice a week from Tuesday virtual and Wednesday physical between 10AM and 4PM while the weekend classes are held on Fridays and Saturdays 10AM – 4PM.",
   },
   {
     id: "4",
 
     title: "Do you offer career support?",
-    body: "The ability of the students to become hireable after the academy training depend on the skills that they may have gathered during the duration of their course. However we may be willing to put in a good word for our outstanding students.",
+    body: "Yes, we are happy to offer support to outstanding students in their career journey.",
   },
   {
     id: "5",

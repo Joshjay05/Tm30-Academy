@@ -14,8 +14,8 @@ function Image() {
         <div className="course-description">
           <h1>A Collection of our Students in Class</h1>
           <p>
-            Rare visuals of registered students paying attention during lectures
-            with their person
+          Conducive environment 
+With us, you learn with comfort. You learn in a conducive environment with all basic amenities at your disposal.
           </p>
         </div>
 

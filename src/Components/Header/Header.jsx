@@ -24,7 +24,7 @@ const Header = () => {
         <p data-aos="zoom-in-up" data-aos-duration="2000">
           Your career is defined by what you know and how well you know it. Take
           your Tech skills to the next level. Learn the latest in technology
-          stack from experts with real-world exercises & projects on all
+          stacks from experts with real-world exercises & projects on all
           courses. Learn through applicative real-life projects developed by
           industry experts
         </p>

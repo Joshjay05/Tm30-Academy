@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <div className="price-container">
       <div className="price-desc">
-        <h4>Tuition and payment option</h4>
+        <h4>Tuition and payment options</h4>
         <p>
           Flexible and considerate tutions and payment options towards aching
           your dream skill and honing them.
@@ -25,9 +25,7 @@ const Pricing = () => {
             {" "}
             <img src={line} alt="" />{" "}
           </div>
-          {/* <div className="middle">
-            <span className="span_1"></span> <span className="SPAN-2"></span>
-          </div> */}
+         
           <p>
             Learn at Zero Cost. Pass and Qualify to be employed by TM30 and work
             with us on a full Salary for at least 15 Months.
@@ -48,9 +46,7 @@ const Pricing = () => {
             {" "}
             <img  src={line} alt="" />{" "}
           </div>
-          {/* <div className="middle">
-            <span className="span_1"></span> <span className="SPAN-2"></span>
-          </div> */}
+     
           <p>
             Get your course payments out of the way at once with our one-off
             payment option and get up to 10%. No fuss, no hassle
@@ -69,9 +65,7 @@ const Pricing = () => {
             {" "}
             <img src={line} alt="" />{" "}
           </div>
-          {/* <div className="middle">
-            <span className="span_1"></span> <span className="SPAN-2"></span>
-          </div> */}
+      
           <p>
             Complete your payment within the months of the program by paying the
             sum of #270k upfront, and 265k respectively over a period of 3
